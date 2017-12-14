@@ -1,0 +1,18 @@
+{
+  "name": "gitlab-dependencies",
+  "version": "1.0.0",
+  "author": "Julien Bouquillon <julien@revolunet.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revolunet/gitlab-dependencies.git"
+  },
+  "homepage": "https://revolunet.github.io/gitlab-dependencies/",
+  "bugs": {
+    "url": "https://github.com/revolunet/gitlab-dependencies/issues"
+  },
+  "dependencies": {
+    "gitlab": "^1.7.1",
+    "pom-parser": "^1.1.1"
+  }
+}
