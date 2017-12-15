@@ -1,8 +1,9 @@
 # gitlab-dependencies
 
-Extract your project dependencies using GitLab API.
+Extract all your project dependencies using GitLab API.
 
 Supports :
+
  - `package.json` natively
  - `composer.json` natively
  - `pom.xml` with [node-pom-parser](https://github.com/intuit/node-pom-parser)
@@ -27,6 +28,8 @@ const dependencies = await gitlabDeps.get({
 });
 
 ```
+
+Return all matched files in the `pages/jigsaw` repo, with dependencies
 
 ```json
  [

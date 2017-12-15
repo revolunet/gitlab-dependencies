@@ -64,7 +64,7 @@ const readFile = ({ api, projectId, path, ref = "master" }) =>
 const getProjectPackages = async (api, projectId) => {
   const readProjectFile = p => readFile({ api, projectId, path: p.path });
 
-  // parse dependencies file and add a dependencies key to gien `p` hash
+  // parse dependencies file and add keys from parser to given `p` hash
   const addDependencies = parse => p =>
     readProjectFile(p)
       .then(parse)

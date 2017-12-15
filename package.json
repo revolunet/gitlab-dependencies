@@ -2,7 +2,8 @@
   "name": "gitlab-dependencies",
   "version": "1.0.0",
   "author": "Julien Bouquillon <julien@revolunet.com>",
-  "description": "Extract your project dependencies using GitLab API. supports pom.xml, package.json",
+  "description":
+    "Extract your project dependencies using GitLab API. supports pom.xml, package.json, composer.json, Gemfile",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -12,6 +13,7 @@
   "bugs": {
     "url": "https://github.com/revolunet/gitlab-dependencies/issues"
   },
+  "keywords": ["dependencies", "gitlab", "scanner"],
   "dependencies": {
     "gemfile": "^1.0.0",
     "gitlab": "^1.7.1",
