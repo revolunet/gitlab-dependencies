@@ -70,7 +70,7 @@ const getProjectPackages = async (api, projectId) => {
       .then(parse)
       .then(dependencies => ({
         ...p,
-        dependencies
+        ...dependencies
       }));
 
   // scan the repo, parse dependencies, and return all results

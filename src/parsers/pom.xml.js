@@ -6,6 +6,6 @@ module.exports = pomContent =>
       if (err) {
         reject();
       }
-      resolve(pomResponse.pomObject.project.dependencies.dependency);
+      resolve({ dependencies: pomResponse.pomObject.project.dependencies.dependency });
     });
   });

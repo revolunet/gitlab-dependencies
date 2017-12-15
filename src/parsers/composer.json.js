@@ -1,1 +1,1 @@
-module.exports = composerContent => Promise.resolve(JSON.parse(composerContent).require);
+module.exports = composerContent => Promise.resolve({ dependencies: JSON.parse(composerContent).require });
